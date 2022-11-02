@@ -1,0 +1,9 @@
+C:\Users\Helreizer55\Documents\github\Godot_Learning\JumpySparrow\.mono\temp\bin\Debug\JumpySparrow.dll
+C:\Users\Helreizer55\Documents\github\Godot_Learning\JumpySparrow\.mono\temp\bin\Debug\JumpySparrow.pdb
+C:\Users\Helreizer55\Documents\github\Godot_Learning\JumpySparrow\.mono\temp\obj\Debug\JumpySparrow.csproj.AssemblyReference.cache
+C:\Users\Helreizer55\Documents\github\Godot_Learning\JumpySparrow\.mono\temp\obj\Debug\JumpySparrow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Helreizer55\Documents\github\Godot_Learning\JumpySparrow\.mono\temp\obj\Debug\JumpySparrow.AssemblyInfoInputs.cache
+C:\Users\Helreizer55\Documents\github\Godot_Learning\JumpySparrow\.mono\temp\obj\Debug\JumpySparrow.AssemblyInfo.cs
+C:\Users\Helreizer55\Documents\github\Godot_Learning\JumpySparrow\.mono\temp\obj\Debug\JumpySparrow.csproj.CoreCompileInputs.cache
+C:\Users\Helreizer55\Documents\github\Godot_Learning\JumpySparrow\.mono\temp\obj\Debug\JumpySparrow.dll
+C:\Users\Helreizer55\Documents\github\Godot_Learning\JumpySparrow\.mono\temp\obj\Debug\JumpySparrow.pdb
