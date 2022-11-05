@@ -1,0 +1,9 @@
+C:\Users\Helreizer55\Documents\GitHub\Godot_Learning\ActionRPG\.mono\temp\bin\Debug\ActionRpg.dll
+C:\Users\Helreizer55\Documents\GitHub\Godot_Learning\ActionRPG\.mono\temp\bin\Debug\ActionRpg.pdb
+C:\Users\Helreizer55\Documents\GitHub\Godot_Learning\ActionRPG\.mono\temp\obj\Debug\ActionRpg.csproj.AssemblyReference.cache
+C:\Users\Helreizer55\Documents\GitHub\Godot_Learning\ActionRPG\.mono\temp\obj\Debug\ActionRpg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Helreizer55\Documents\GitHub\Godot_Learning\ActionRPG\.mono\temp\obj\Debug\ActionRpg.AssemblyInfoInputs.cache
+C:\Users\Helreizer55\Documents\GitHub\Godot_Learning\ActionRPG\.mono\temp\obj\Debug\ActionRpg.AssemblyInfo.cs
+C:\Users\Helreizer55\Documents\GitHub\Godot_Learning\ActionRPG\.mono\temp\obj\Debug\ActionRpg.csproj.CoreCompileInputs.cache
+C:\Users\Helreizer55\Documents\GitHub\Godot_Learning\ActionRPG\.mono\temp\obj\Debug\ActionRpg.dll
+C:\Users\Helreizer55\Documents\GitHub\Godot_Learning\ActionRPG\.mono\temp\obj\Debug\ActionRpg.pdb
