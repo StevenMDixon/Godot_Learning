@@ -4,12 +4,13 @@ using System;
 public class CaveExit : Area2D
 {
     [Export(PropertyHint.File, "*.tscn,*.scn")]
-     String newScene;
+    String newScene;
+    private SceneTransition sceneTransition;
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        
+        sceneTransition = GetNode<SceneTransition>("/root/SceneTransition");
     }
 
     public override void _Input(InputEvent inputEvent)
@@ -25,7 +26,7 @@ public class CaveExit : Area2D
 
     public void NextLevel()
     {
-       GetTree().ChangeScene(newScene);
+       sceneTransition.ChangeScene(newScene);
     }
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.

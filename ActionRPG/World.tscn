@@ -1358,7 +1358,7 @@ position = Vector2( 153, 109 )
 position = Vector2( 112, 64 )
 
 [node name="Slime" parent="YSort" instance=ExtResource( 6 )]
-position = Vector2( 134, 136 )
+position = Vector2( 142, 130 )
 
 [node name="CaveEntrance" type="Area2D" parent="."]
 script = ExtResource( 4 )

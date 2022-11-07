@@ -8,6 +8,7 @@
 extents = Vector2( 10.25, 3.125 )
 
 [node name="Cave" type="Node2D"]
+position = Vector2( -47, -26 )
 
 [node name="Background" type="TileMap" parent="."]
 position = Vector2( -112, 38 )
