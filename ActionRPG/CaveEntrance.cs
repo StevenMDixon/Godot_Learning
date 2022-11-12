@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using System.Linq;
 
 public class CaveEntrance : Area2D
 {
@@ -21,9 +22,14 @@ public class CaveEntrance : Area2D
     {
         if(inputEvent.IsActionPressed("ui_accept"))
         {
-            if(GetOverlappingBodies().Count > 0 )
+
+            Godot.Collections.Array overlapping = GetOverlappingBodies();
+            foreach(Node item in overlapping)
             {
-                NextLevel();
+                if(item.IsInGroup("Player")){
+                    GD.Print(GetOverlappingBodies());
+                    NextLevel();
+                }
             }
         }
     }

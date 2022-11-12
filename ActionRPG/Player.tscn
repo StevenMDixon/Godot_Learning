@@ -136,19 +136,17 @@ tracks/2/keys = {
 "values": [ false, true ]
 }
 
-[node name="Player" type="KinematicBody2D"]
-position = Vector2( 231, 113 )
+[node name="Player" type="KinematicBody2D" groups=["Player"]]
 script = ExtResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 0, -7 )
 frames = SubResource( 18 )
 animation = "Idle"
-frame = 4
+frame = 6
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, -2 )
+position = Vector2( 0, 5 )
 shape = SubResource( 19 )
 
 [node name="Camera2D" type="Camera2D" parent="."]

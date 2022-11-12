@@ -6,6 +6,7 @@ public class Player : KinematicBody2D
     // Declare member variables here. Examples:
     // private int a = 2;
     // private string b = "text";
+    private PackedScene DashGhost;
     private AnimatedSprite animationPlayer;
 
     private Attack attack;
@@ -24,6 +25,7 @@ public class Player : KinematicBody2D
     {
         animationPlayer = GetNode<AnimatedSprite>("AnimatedSprite");
         attack = GetNode<Attack>("Attack");
+        DashGhost = (PackedScene)ResourceLoader.Load("res://DashGhost.tscn");
     }
 
     public override void _UnhandledInput(InputEvent @event)
@@ -34,13 +36,19 @@ public class Player : KinematicBody2D
        }
     }
 
+    private void instanceGhost(float direction){
+        DashGhost ghost = (DashGhost)DashGhost.Instance();
+        ghost.setStats(direction);
+        this.GetParent().AddChild(ghost);
+        ghost.GlobalPosition = GlobalPosition;
+    }
+
     public override void _PhysicsProcess(float delta)
     {
         Vector2 input = new Vector2();
         input.x = Input.GetActionStrength("ui_right") - Input.GetActionStrength("ui_left");
         input.y = Input.GetActionStrength("ui_down") - Input.GetActionStrength("ui_up");
         input = input.Normalized();
-
 
 
         if(Input.IsActionJustPressed("Run"))
@@ -80,6 +88,8 @@ public class Player : KinematicBody2D
             {
                 MAX_SPEED = WALK_SPEED;
             }
+
+            instanceGhost(motion.x);
 
             motion += input * ACELLERATION * delta;
             motion = motion.LimitLength(MAX_SPEED * delta);

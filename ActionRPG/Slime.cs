@@ -106,6 +106,7 @@ public class Slime : KinematicBody2D
 
     public void handleDamage(int damage)
     {
+        GD.Print("Ouch");
         health -= damage;
         if(health <= 0)
         {
